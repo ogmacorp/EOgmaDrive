@@ -162,8 +162,8 @@ def savePredictedImage():
 def setupEOgmaNeo():
     global _system, _hierarchy, _inputImage, _inputValue
     
-    print("Initializing EOgmaNeo::System")
-    _system = eogmaneo.System(4)
+    print("Initializing EOgmaNeo::ComputeSystem")
+    _system = eogmaneo.ComputeSystem(4)
 
     print("Initializing EOgmaNeo::Hierarchy")
     lds = eogmaneo.StdVecLayerDesc()
