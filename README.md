@@ -18,6 +18,8 @@ alt="Self Driving Car Learns Online and On-board on Raspberry Pi 3" width="480" 
 
 The [Unity](https://unity3d.com/) based simulation [OgmaDrive](https://github.com/ogmacorp/OgmaDrive) was used to prototype the SDC, using C# scripts and the EOgmaNeo library.
 
+The two sub-directories contain Readme.md files that further describes each configuration. A summary for each configuration is presented below. 
+
 ## Configuration1
 
 Has two versions: One with Steam controller to Pi-Top to RF Transmitter/Receiver, and another with short range Steam Controller control only.

@@ -89,7 +89,7 @@ time.sleep(2)
 
 ser = serial.Serial('/dev/serial/by-id/usb-Arduino_Srl_Arduino_Uno_556393038343514082D0-if00', 115200)
 
-esystem = eogmaneo.System(4)
+esystem = eogmaneo.ComputeSystem(4)
 
 ld = 6 * [ eogmaneo.LayerDesc() ]
 
