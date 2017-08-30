@@ -84,7 +84,7 @@ time.sleep(2)
 
 ser = serial.Serial('/dev/serial/by-id/usb-Arduino_Srl_Arduino_Uno_556393038343514082D0-if00', 115200)
 
-s = eogmaneo.System(4)
+s = eogmaneo.ComputeSystem(4)
 
 #lr = eogmaneo.LocalRegressor()
 
