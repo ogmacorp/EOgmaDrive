@@ -10,26 +10,35 @@
 
 Repository for the EOgmaNeo-based self driving car (SDC).
 
-Configuration1 was used in producing the following Ogma YouTube video:
+Three sub-directories contain Readme.md files that further describes each configuration. A summary for each configuration is presented below.
+
+Included are two configurations (1 & 2) used to build a 1/10 scale 2WD RC self driving car, and a third configuration to create a hand-sized 3D printed self driving car (uSDC).
+
+**Configuration1** was used in producing the following Ogma YouTube video:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0ibVhtuQkZA
 " target="_blank"><img src="http://img.youtube.com/vi/0ibVhtuQkZA/0.jpg" 
 alt="Self Driving Car Learns Online and On-board on Raspberry Pi 3" width="480" height="360" border="1"/></a>
 
-The [Unity](https://unity3d.com/) based simulation [OgmaDrive](https://github.com/ogmacorp/OgmaDrive) was used to prototype the SDC, using C# scripts and the EOgmaNeo library.
+**Configuration3** was used in producing the following Ogma YouTube video of the uSDC:
 
-The two sub-directories contain Readme.md files that further describes each configuration. A summary for each configuration is presented below. 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9GNbVkMb8Qw
+" target="_blank"><img src="http://img.youtube.com/vi/9GNbVkMb8Qw/0.jpg" 
+alt="World's Smallest Self-Driving Car - a Raspberry Pi Zero on wheels.." width="480" height="360" border="1"/></a>
+
+As seen in the above video, an [InfiniTrax](http://infinitrax.com/product.php) "1080 BEAST" modular track was used with the uSDC.
+
+A [Unity](https://unity3d.com/) based simulation [OgmaDrive](https://github.com/ogmacorp/OgmaDrive) was used to prototype the SDC, using C# scripts and the EOgmaNeo library.
 
 ## Configuration1
-
-Has two versions: One with Steam controller to Pi-Top to RF Transmitter/Receiver, and another with short range Steam Controller control only.
 
 - Steam Controller with wireless dongle
 
 SDC:
+
 - Traxxas Rustler RC car
 - Raspberry Pi3
-- Pi Camera 2
+- Pi Camera v2
 - Pi Camera case
 - Active cooling case "Eleduino Raspberry Pi 3 and Raspberry Pi 2 Model B Acrylic Case with High Quality Mini Fan"
 - 2 pcs 18650 batteries with battery pack (for powering the steering servo)
@@ -39,14 +48,15 @@ SDC:
 - Using fast event-based version of EOgmaNeo + OpenCV's Canny Edge + PySerial (for Arduino communication)
 
 RF Version Extra:
+
 - Pi-Top with Raspberry Pi 3
 - Arduino UNO (or Leonardo, USB to RPi)
 - RF Transmitter/Receiver Modules "Makerfocus 2pcs Wireless Module NRF24L01+PA+LNA in Antistatic Foam Arduino Compatible with Antenna"
 
-
 ## Configuration2
 
 Base station, for limited communication with the SDC:
+
 - Pi-Top
 - Raspberry Pi3
 - Arduino UNO (or Leonardo, USB to RPi)
@@ -54,6 +64,7 @@ Base station, for limited communication with the SDC:
 - XBee Pro (S1, with u.fl antenna)
 
 SDC:
+
 - Traxxas Rustler RC car (optional clear body)
 - Raspberry Pi3
 - Raspberry Camera (mounted to front bumper)
@@ -63,6 +74,20 @@ SDC:
 - XBee Pro (S1, u.fl antenna)
 - Power Bank (to PiLeven or RPi)
 - Servo pass-through connector (attached to PiLeven)
+
+## Configuration3
+
+- Steam Controller with wireless dongle
+- InfiniTrax modular track system (optional)
+
+uSDC:
+
+- 3D Printed base, RPi ZeroW mount, and camera mount
+- Raspberry Pi ZeroW
+- Pimoroni Explorer pHAT (motor drivers)
+- Pololu 136:1 sub-micro planetary gearmotors, wheels, and front ball caster
+- Adafruit Lithium Ion Polymer Battery, with a PowerBoost and charger module
+- SainSmart wide angle camera
 
 ## License and Copyright
 
