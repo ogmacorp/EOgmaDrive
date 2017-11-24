@@ -10,6 +10,8 @@
 
 [![Join the chat at https://gitter.im/ogmaneo/Lobby](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ogmaneo/Lobby)
 
+As seen in the first issue of the [HackSpace magazine](https://hackspace.raspberrypi.org/issues/1) (December 2017), and as a project on [HackADay.io](https://hackaday.io/project/27173-a-self-driving-car-using-a-raspberry-pi-zero)
+
 ## Bill of Materials
 
 The [BillOfMaterials.md](BillOfMaterials.md) file details all the items required before assembly.

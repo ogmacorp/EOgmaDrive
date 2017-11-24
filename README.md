@@ -20,7 +20,7 @@ Included are two configurations (1 & 2) used to build a 1/10 scale 2WD RC self d
 " target="_blank"><img src="http://img.youtube.com/vi/0ibVhtuQkZA/0.jpg" 
 alt="Self Driving Car Learns Online and On-board on Raspberry Pi 3" width="480" height="360" border="1"/></a>
 
-**Configuration3** was used in producing the following Ogma YouTube video of the uSDC:
+**Configuration3** appears in the first issue of the [HackSpace magazine](https://hackspace.raspberrypi.org/issues/1) (December 2017), as a project on [HackADay.io](https://hackaday.io/project/27173-a-self-driving-car-using-a-raspberry-pi-zero), and was used in producing the following Ogma YouTube video:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9GNbVkMb8Qw
 " target="_blank"><img src="http://img.youtube.com/vi/9GNbVkMb8Qw/0.jpg" 

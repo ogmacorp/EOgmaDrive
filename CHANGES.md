@@ -1,3 +1,8 @@
+1.1.1 November, 2017
+====================
+
+- Links to HackSpace magazine article and HackADay project page
+
 1.1  August, 2017
 =================
 
