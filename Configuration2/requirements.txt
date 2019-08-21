@@ -1,9 +1,9 @@
 #opencv-python
 picamera
 pillow
-Flask==1.0
-Jinja2==2.7.3
-MarkupSafe==0.23
-Werkzeug==0.15.3
-itsdangerous==0.24
+Flask
+Jinja2
+MarkupSafe
+Werkzeug
+itsdangerous
 snakeviz
